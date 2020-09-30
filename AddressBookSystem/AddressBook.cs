@@ -30,5 +30,19 @@ namespace AddressBookSystem
             else
                 return false;
         }
+        public bool RemoveContact(string name)
+        {
+            Contact c = FindContact(name);
+
+            if (c != null)
+            {
+                People.Remove(c);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

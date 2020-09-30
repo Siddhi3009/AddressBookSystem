@@ -20,7 +20,7 @@ namespace AddressBookSystem
             bool loop = true;
             while (loop)
             {
-                Console.WriteLine("Select the option. \n1. Add new contact. \n2. Edit existing contact. \n3. Exit.");
+                Console.WriteLine("Select the option. \n1. Add new contact. \n2. Edit existing contact.\n3. Delete Contact \n4. Exit.");
                 int option = int.Parse(Console.ReadLine());
                 switch (option)
                 {
@@ -81,6 +81,19 @@ namespace AddressBookSystem
                             break;
                         }
                     case 3:
+                        Console.WriteLine("Enter the first name of the contact to be deleted ");
+                        string name1 = Console.ReadLine();
+                        if (p.book.RemoveContact(name1))
+                        {
+                            Console.WriteLine("Contact removed successfully");
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Contact not found");
+                            break;
+                        }
+                    case 4:
                         loop = false;
                         break;
                 }
