@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\AddressBookSystem.exe.config
+C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\AddressBookSystem.exe
+C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\AddressBookSystem.pdb
+C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\obj\Debug\AddressBookSystem.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\obj\Debug\AddressBookSystem.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\obj\Debug\AddressBookSystem.exe
+C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\obj\Debug\AddressBookSystem.pdb
