@@ -10,6 +10,7 @@ namespace AddressBookSystem
     {
         static void Main(string[] args)
         {
+            NlogServices nLog = new NlogServices();
             AddressBookBinder binder = new AddressBookBinder();
             AddressBook book = new AddressBook();
             Console.WriteLine("Welcome to Address Book Program");
@@ -47,11 +48,16 @@ namespace AddressBookSystem
                             if (book.AddContact(FirstName, LastName, Address, City, State, ZipCode, PhoneNumber, Email))
                             {
                                 Console.WriteLine("Contact added successfully");
+                                nLog.LogDebug("Debug Successful : AddContact()");
+                                nLog.LogError("Expecting null values");
+                                nLog.LogWarn("Contact should not already exist");
                                 break;
                             }
                             else
                             {
                                 Console.WriteLine("Contact already exists");
+                                nLog.LogDebug("Debug Successful : AddContact()");
+                                nLog.LogInfo("Contact already exits");
                                 break;
                             }
                         case 2:
