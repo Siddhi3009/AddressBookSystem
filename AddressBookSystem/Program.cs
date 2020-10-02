@@ -11,13 +11,13 @@ namespace AddressBookSystem
         static void Main(string[] args)
         {
             AddressBookBinder binder = new AddressBookBinder();
+            AddressBook book = new AddressBook();
             Console.WriteLine("Welcome to Address Book Program");
             int result = 1;
             while(result == 1)
             {
                 Console.WriteLine("Enter the name of the Address Book to be used");
                 string addrName = Console.ReadLine();
-                AddressBook book = new AddressBook();
                 binder.AddAddrBook(addrName, book.People);
                 int loop = 1;
                 while (loop == 1)
