@@ -8,7 +8,6 @@ namespace AddressBookSystem
 {
     class AddressBook
     {
-        //public string addrName { get; set; }
         public List<Contact> People;
         public AddressBook()
         {

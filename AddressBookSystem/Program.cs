@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.CSharp.RuntimeBinder;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,14 +12,14 @@ namespace AddressBookSystem
         static void Main(string[] args)
         {
             AddressBookBinder binder = new AddressBookBinder();
-            AddressBook book = new AddressBook();
             Console.WriteLine("Welcome to Address Book Program");
             int result = 1;
             while(result == 1)
             {
                 Console.WriteLine("Enter the name of the Address Book to be used");
                 string addrName = Console.ReadLine();
-                binder.AddAddrBook(addrName, book.People);
+                AddressBook book = new AddressBook();
+                book.People = binder.AddAddrBook(addrName, book.People);
                 int loop = 1;
                 while (loop == 1)
                 {
@@ -100,6 +101,7 @@ namespace AddressBookSystem
                             break;
                     }
                 }
+                binder.Binder[addrName].Union(book.People);
                 Console.WriteLine("Do you want to enter an address book. \n1. yes \n2. no");
                 result = int.Parse(Console.ReadLine());
             }
