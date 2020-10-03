@@ -5,7 +5,6 @@ C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\obj\De
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\obj\Debug\AddressBookSystem.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\obj\Debug\AddressBookSystem.exe
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\obj\Debug\AddressBookSystem.pdb
-C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\NLog.config
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\Microsoft.Extensions.Configuration.dll
@@ -14,8 +13,6 @@ C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\De
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\Microsoft.Extensions.Logging.dll
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\Microsoft.Extensions.Options.dll
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\Microsoft.Extensions.Primitives.dll
-C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\NLog.dll
-C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\NLog.Extensions.Logging.dll
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\System.Buffers.dll
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\System.Memory.dll
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\System.Numerics.Vectors.dll
@@ -28,8 +25,6 @@ C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\De
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\Microsoft.Extensions.Options.xml
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\Microsoft.Extensions.Primitives.xml
-C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\NLog.xml
-C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\NLog.Extensions.Logging.xml
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\System.Buffers.xml
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\System.Memory.xml
 C:\Users\Administrator\Desktop\GIT\8. AddressBookSystem\AddressBookSystem\bin\Debug\System.Numerics.Vectors.xml
