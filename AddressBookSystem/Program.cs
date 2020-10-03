@@ -101,7 +101,7 @@ namespace AddressBookSystem
                             break;
                     }
                 }
-                binder.Binder[addrName].Union(book.People);
+                binder.Binder[addrName] = (book.People);
                 Console.WriteLine("Do you want to enter an address book. \n1. yes \n2. no");
                 result = int.Parse(Console.ReadLine());
             }
