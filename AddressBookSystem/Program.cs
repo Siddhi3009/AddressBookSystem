@@ -34,7 +34,7 @@ namespace AddressBookSystem
             string PhoneNumber = Console.ReadLine();
             Console.WriteLine("Email");
             string Email = Console.ReadLine();
-            if (p.book.AddContact(FirstName, LastName, Address, City, State, ZipCode, PhoneNumber, Email))
+            if (p.book.AddContact(FirstName, LastName, Address, City, State, ZipCode, PhoneNumber, Email)== true)
             {
                 Console.WriteLine("Contact added successfully");
             }
